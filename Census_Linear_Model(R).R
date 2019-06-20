@@ -1,5 +1,3 @@
-setwd('c:/users/sandy/wgu/c742/')
-
 popdata <- read.csv('popestscsv.csv', nrows=1, skip=39, header = F, sep = ',', dec=',', stringsAsFactors = F) # THIS IMPORTS THE LINE FROM THE CSV WITH THE NJ DATA #
 yeardata <- read.csv('popestscsv.csv', nrows=1, skip=3, header = F, sep = ',', dec=',', stringsAsFactors = F) # IMPORTS THE LINE FROM THE CSV WITH THE YEAR DATA #
 
